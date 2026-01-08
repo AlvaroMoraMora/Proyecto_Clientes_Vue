@@ -1,0 +1,7 @@
+{
+  "recommendations": ["Vue.volar"],
+  "tailwindCSS.experimental.classRegex": [],
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
