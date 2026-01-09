@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="63.785137mm"
+   height="73.734711mm"
+   viewBox="0 0 63.785137 73.734711"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><g
+     id="layer1"
+     transform="translate(-70.51667,-117.57351)"><g
+       id="g1"
+       transform="translate(6.2456723,-87.699642)"><path
+         style="fill:#34485a;fill-opacity:1;stroke:#eac3c4;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         d="m 64.421012,225.67756 c 5.520446,8.18866 5.244422,7.4526 5.244422,7.4526 v 23.00186 l 26.314128,16.46933 26.590158,-16.37732 0.092,-22.81785 5.15242,-7.91264 0.092,33.58272 -31.742573,19.7816 -31.742565,-19.68959 z"
+         id="path8" /><path
+         style="fill:#34485a;fill-opacity:1;stroke:#eac3c4;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         d="m 72.37468,219.54629 9.982805,0.11501 13.663105,-8.11966 13.6631,8.23467 h 10.39684 L 95.928583,205.42315 Z"
+         id="path13" /><rect
+         style="fill:#4aaf81;fill-opacity:1;stroke:#eac3c4;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect13"
+         width="44.6036"
+         height="6.9689589"
+         x="73.820801"
+         y="239.07547" /><rect
+         style="fill:#49b081;fill-opacity:1;stroke:#eac3c4;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect13-1"
+         width="44.6036"
+         height="6.9689589"
+         x="73.782837"
+         y="248.55928" /></g></g><g
+     id="layer2"
+     transform="translate(-70.51667,-117.57351)"><g
+       transform="matrix(0.29034229,0,0,-0.29034229,57.108654,203.77106)"
+       id="g3"
+       style="fill:#49b081;fill-opacity:1"><g
+         transform="translate(178.06,235.01)"
+         id="g1-5"><path
+           d="M 0,0 -22.669,-39.264 -45.338,0 h -75.491 L -22.669,-170.02 75.491,0 Z"
+           fill="#41b883"
+           id="path1-2" /></g><g
+         transform="translate(178.06,235.01)"
+         id="g2"><path
+           d="M 0,0 -22.669,-39.264 -45.338,0 H -81.565 L -22.669,-102.01 36.227,0 Z"
+           fill="#34495e"
+           id="path2-7" /></g></g></g></svg>

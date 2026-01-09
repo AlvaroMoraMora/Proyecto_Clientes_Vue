@@ -1,10 +1,30 @@
 <script setup lang="ts">
+  import { ref } from 'vue';
+  import inglesIcono from '../assets/ingles-icono.png'
+  import espanolIcono from '../assets/espanol-icono.png'
+  import logo from '../assets/LogoCriptoVue.svg'
+  type Idioma = "ingles" | "espanol";
+  type Iconos = Record<Idioma, string>
+
+  const idioma = ref<Idioma>("ingles");
+
+  const iconos: Iconos = {
+    ingles: inglesIcono,
+    espanol: espanolIcono
+  }
 </script>
 
 <template>
-  <h2 class="text-4xl font-bold">Hola Mundo!</h2>
+  <header class="bg-[#F0F4F8] flex items-center justify-between px-5 py-2">
+    <div>
+      <img :src="logo" alt="" class="w-[70px] h-[70px]"/>
+      <h2 class="text-3xl text-[#34495E] font-bold">CryptoVue</h2>
+    </div>
+    
+    <nav>
+      <button class="text-lg flex items-center justify-center rounded-2xl cursor-pointer">
+        <img :src="iconos[idioma]" :alt="'idioma ' + idioma" class="w-[50px] h-[50px]"/>
+      </button>
+    </nav>
+  </header>
 </template>
-
-<style scoped>
-
-</style>
