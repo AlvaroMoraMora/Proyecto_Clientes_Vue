@@ -26,15 +26,15 @@
 
     <ul class="text-xl text-[#34495E] font-bold flex gap-4">
       <li>
-        <a href="#">Resumen</a>
+        <a href="#" class="hover:text-[rgb(82,103,124)]">Resumen</a>
       </li>
       
       <li>
-        <a href="#">Monedas</a>
+        <a href="#" class="hover:text-[rgb(82,103,124)]">Monedas</a>
       </li>
       
       <li>
-        <a href="#">Suscribirse</a>
+        <a href="#" class="hover:text-[rgb(82,103,124)]">Suscribirse</a>
       </li>
     </ul>
     
