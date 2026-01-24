@@ -24,9 +24,43 @@ export function useCryptoData() {
                 label: monedaActual.nombre,
                 data: monedaActual.historial.map(item => item.precio),
                 backgroundColor: colores[indiceMoneda.value % colores.length],
-                borderColor: colores[indiceMoneda.value % colores.length]
+                borderColor: '#34495E',
+                borderWidth: 3
             }]
         };
+    });
+
+    const chartOptions = ref({
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+            legend: {display: false},
+            tooltip: {
+                backgroundColor: "#35495e",
+                titleColor: "#fff",
+                bodyColor: "#fff",
+                padding: 10,
+                cornerRadius: 8,
+                displayColors: false
+            }
+        },
+
+        scales: {
+            x: { 
+                grid: { display: false }, 
+                ticks: { 
+                    color: '#34495E',
+                    font: { family: 'Space Mono', weight: 'bold' as const, size: 10 }
+                }
+            },
+            y: { 
+                grid: { color: '#34495E', lineWidth: 1 }, 
+                ticks: { 
+                    color: '#34495E',
+                    font: { family: 'Space Mono', size: 10 },
+                }
+            }
+        }
     });
 
     const cargarDatos = async () => {
@@ -54,15 +88,23 @@ export function useCryptoData() {
         }
     }
 
+    const cambiarCriptomoneda = (i: number) => {
+        indiceMoneda.value = i;
+    }
+
     onMounted(() => {
         cargarDatos();
     })
 
 
     return { 
-        chartData, 
+        chartData,
+        chartOptions, 
+        monedas,
+        indiceMoneda,
         cargarDatos, 
         anteriorCriptomoneda, 
-        siguienteCriptomoneda 
+        siguienteCriptomoneda,
+        cambiarCriptomoneda 
     }
 }

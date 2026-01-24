@@ -1,47 +1,36 @@
 <script setup lang="ts">
-  import { ref } from 'vue';
-  import inglesIcono from '../assets/ingles-icono.png'
-  import espanolIcono from '../assets/espanol-icono.png'
-  import logo from '../assets/LogoCriptoVue.svg'
-
-  type Idioma = "ingles" | "espanol";
-  type Iconos = Record<Idioma, string>
-
-  const idioma = ref<Idioma>("ingles");
-
-  const iconos: Iconos = {
-    ingles: inglesIcono,
-    espanol: espanolIcono
-  }
+  import logo from '../assets/LogoCryptoVue.webp'
 </script>
 
 <template>
-  <header class="bg-[#E2E8F0] flex items-center justify-between px-5 py-2">
-    <a href="#">
-      <div class="flex justify-center items-center">
-        <img :src="logo" alt="" class="w-[70px] h-[70px]"/>
-        <h2 class="text-3xl text-[#34495E] font-bold">CryptoVue</h2>
-      </div>
-    </a>
+    <div class="bg-[#42b883] py-2 overflow-hidden">
+        <div class="marquee whitespace-nowrap text-center">
+            <span class="inline-block px-8 font-bold text-white">BTC $67,245 ↑2.4%</span>
+            <span class="inline-block px-8 font-bold text-white">ETH $3,456 ↑1.8%</span>
+            <span class="inline-block px-8 font-bold text-white">SOL $178 ↓0.5%</span>
+            <span class="inline-block px-8 font-bold text-white">ADA $0.89 ↑4.2%</span>
+            <span class="inline-block px-8 font-bold text-white">BTC $67,245 ↑2.4%</span>
+            <span class="inline-block px-8 font-bold text-white">ETH $3,456 ↑1.8%</span>
+            <span class="inline-block px-8 font-bold text-white">SOL $178 ↓0.5%</span>
+            <span class="inline-block px-8 font-bold text-white">ADA $0.89 ↑4.2%</span>
+        </div>
+    </div>
 
-    <ul class="text-xl text-[#34495E] font-bold flex gap-4">
-      <li>
-        <a href="#" class="hover:text-[rgb(82,103,124)]">Resumen</a>
-      </li>
-      
-      <li>
-        <a href="#" class="hover:text-[rgb(82,103,124)]">Monedas</a>
-      </li>
-      
-      <li>
-        <a href="#" class="hover:text-[rgb(82,103,124)]">Suscribirse</a>
-      </li>
-    </ul>
-    
-    <nav>
-      <button class="text-lg flex items-center justify-center rounded-2xl cursor-pointer">
-        <img :src="iconos[idioma]" :alt="'idioma ' + idioma" class="w-[50px] h-[50px]"/>
-      </button>
-    </nav>
-  </header>
+    <header class="border-b-4 border-[#34495E] bg-white">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <router-link to="/" class="flex items-center gap-4">
+                <img :src="logo" alt="logo" style="width: 55px; height: 51px;"/>
+                <span class="display text-5xl tracking-wide">CRYPTOVUE</span>
+            </router-link>
+            <nav class="hidden md:flex items-center gap-2">
+                <router-link to="/" class="px-4 py-2 border-4 border-[#34495E] bg-[#34495E] text-white font-bold">INICIO</router-link>
+                <router-link to=""
+                    class="px-4 py-2 border-4 border-[#34495E] hover:bg-[#34495E] text-[#34495E] hover:text-white transition-none font-bold">MERCADO</router-link>
+                <router-link to=""
+                    class="px-4 py-2 border-4 border-[#34495E] hover:bg-[#34495E] text-[#34495E] hover:text-white transition-none font-bold ">ABOUT</router-link>
+                <router-link to=""
+                    class="px-4 py-2 bg-[#42b883] text-white font-bold border-4 border-[#34495E] shadow-brutal ml-2">ENTRAR</router-link>
+            </nav>
+        </div>
+    </header>
 </template>

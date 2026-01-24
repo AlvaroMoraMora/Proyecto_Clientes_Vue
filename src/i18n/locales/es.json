@@ -1,0 +1,42 @@
+{
+  "header": {
+    "titulo": "CryptoVue",
+    "nav": {
+      "resumen": "Resumen",
+      "monedas": "Monedas",
+      "suscribirse": "Suscribirse"
+    },
+    "idioma": "Español"
+  },
+  "grafica": {
+    "titulo": "Gráfica de Rendimiento",
+    "botones": {
+      "anterior": "Anterior criptomoneda",
+      "siguiente": "Siguiente criptomoneda"
+    },
+    "tipos": {
+      "linea": "Gráfica de línea",
+      "barras": "Gráfica de barras"
+    }
+  },
+  "tabla": {
+    "columnas": {
+      "nombre": "Nombre",
+      "simbolo": "Símbolo",
+      "precio": "Precio",
+      "cambio24h": "Cambio 24h",
+      "volumen": "Volumen",
+      "capitalizacion": "Capitalización"
+    },
+    "acciones": {
+      "ver_detalle": "Ver detalle",
+      "comprar": "Comprar",
+      "vender": "Vender"
+    }
+  },
+  "comun": {
+    "cargando": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "sin_datos": "No hay datos disponibles"
+  }
+}

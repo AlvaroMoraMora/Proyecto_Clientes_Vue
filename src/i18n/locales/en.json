@@ -1,0 +1,42 @@
+{
+  "header": {
+    "titulo": "CryptoVue",
+    "nav": {
+      "resumen": "Overview",
+      "monedas": "Coins",
+      "suscribirse": "Subscribe"
+    },
+    "idioma": "English"
+  },
+  "grafica": {
+    "titulo": "Performance Chart",
+    "botones": {
+      "anterior": "Previous cryptocurrency",
+      "siguiente": "Next cryptocurrency"
+    },
+    "tipos": {
+      "linea": "Line chart",
+      "barras": "Bar chart"
+    }
+  },
+  "tabla": {
+    "columnas": {
+      "nombre": "Name",
+      "simbolo": "Symbol",
+      "precio": "Price",
+      "cambio24h": "24h Change",
+      "volumen": "Volume",
+      "capitalizacion": "Market Cap"
+    },
+    "acciones": {
+      "ver_detalle": "View details",
+      "comprar": "Buy",
+      "vender": "Sell"
+    }
+  },
+  "comun": {
+    "cargando": "Loading...",
+    "error": "An error occurred",
+    "sin_datos": "No data available"
+  }
+}
