@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import Header from "../components/Header.vue"
-import Grafica from "../components/Grafica.vue"
+import Grafica from "../components/Grafica.vue";
+import Hero from "../components/Hero.vue";
+import Features from "../components/Features.vue";
+import Newsletter from "../components/Newsletter.vue";
 </script>
 
 <template>
-<Header/>
-<Grafica/>
+  <Hero/>
+  <Grafica />
+  <Features />
+  <Newsletter />
 </template>

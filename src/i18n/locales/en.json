@@ -2,9 +2,9 @@
   "header": {
     "titulo": "CryptoVue",
     "nav": {
-      "resumen": "Overview",
-      "monedas": "Coins",
-      "suscribirse": "Subscribe"
+      "inicio": "HOME",
+      "mercado": "MARKET",
+      "entrar": "LOGIN"
     },
     "idioma": "English"
   },
@@ -12,21 +12,46 @@
     "titulo": "Performance Chart",
     "botones": {
       "anterior": "Previous cryptocurrency",
-      "siguiente": "Next cryptocurrency"
+      "siguiente": "Next cryptocurrency",
+      "tipo_barras": "BARS",
+      "tipo_linea": "LINE"
+    },
+    "etiquetas": {
+      "asset": "ASSET",
+      "price": "PRICE"
     },
     "tipos": {
       "linea": "Line chart",
       "barras": "Bar chart"
     }
   },
+  "mercado": {
+    "explorar": "EXPLORE",
+    "titulo": "CRYPTO MARKET",
+    "buscador": {
+      "placeholder": "Search coin...",
+      "boton": "SEARCH"
+    },
+    "filtros": {
+      "todos": "ALL",
+      "alza_24h": "24H RISE",
+      "alza_7d": "7D RISE",
+      "menos_1": "< $1",
+      "mas_1": ">= $1",
+      "precio_asc": "PRICE ↑",
+      "precio_desc": "PRICE ↓"
+    }
+  },
   "tabla": {
     "columnas": {
-      "nombre": "Name",
-      "simbolo": "Symbol",
-      "precio": "Price",
-      "cambio24h": "24h Change",
-      "volumen": "Volume",
-      "capitalizacion": "Market Cap"
+      "id": "#",
+      "moneda": "COIN",
+      "precio": "PRICE",
+      "cambio_24h": "24H",
+      "cambio_7d": "7D",
+      "market_cap": "MARKET CAP",
+      "volumen_24h": "24H VOLUME",
+      "grafica_7d": "7D CHART"
     },
     "acciones": {
       "ver_detalle": "View details",
@@ -38,5 +63,151 @@
     "cargando": "Loading...",
     "error": "An error occurred",
     "sin_datos": "No data available"
+  },
+  "footer": {
+    "descripcion": "The brutally honest platform to track the crypto market.",
+    "navegacion": {
+      "titulo": "Navigation",
+      "inicio": "Home",
+      "mercado": "Market",
+      "about": "About",
+      "login": "Login"
+    },
+    "legal": {
+      "titulo": "Legal",
+      "terminos": "Terms of Use",
+      "privacidad": "Privacy",
+      "cookies": "Cookies",
+      "licencias": "Licenses"
+    },
+    "siguenos": "Follow Us",
+    "copyright": "2026 CRYPTOVUE"
+  },
+  "hero": {
+    "titulo_1": "Crypto",
+    "titulo_2": "No filters",
+    "subtitulo_1": "Pure data. No fluff.",
+    "subtitulo_2": "Smart decisions.",
+    "boton_mercado": "View Market",
+    "boton_cuenta": "Create Account",
+    "nuevo": "NEW!",
+    "market_cap": "Market Cap",
+    "cambio_24h": "24h Change",
+    "monedas": "Coins",
+    "volumen": "Volume"
+  },
+  "features": {
+    "titulo": "WHY CRYPTOVUE?",
+    "graficas": {
+      "titulo": "CHARTS",
+      "descripcion": "Clear visualizations without unnecessary distractions."
+    },
+    "tiempo_real": {
+      "titulo": "REAL TIME",
+      "descripcion": "Data updated every second."
+    },
+    "alertas": {
+      "titulo": "ALERTS",
+      "descripcion": "Notifications when your cryptos move."
+    },
+    "multi_idioma": {
+      "titulo": "MULTI-LANGUAGE",
+      "descripcion": "Spanish and English available."
+    }
+  },
+  "newsletter": {
+    "tag": "NEWSLETTER",
+    "titulo": "STAY INFORMED",
+    "descripcion": "Get the latest market news directly in your inbox. No spam, we promise.",
+    "placeholder": "your@email.com",
+    "boton": "SUBSCRIBE"
+  },
+  "login": {
+    "acceso": "ACCESS",
+    "titulo": "LOGIN",
+    "subtitulo": "Access your account to manage your portfolio.",
+    "email": {
+        "label": "EMAIL",
+        "placeholder": "your@email.com",
+        "titulo_validacion": "Please enter a valid email (e.g. user@domain.com)"
+    },
+    "contrasena": {
+        "label": "PASSWORD",
+        "placeholder": "********",
+        "titulo_validacion": "Must have at least 8 characters, one uppercase, one lowercase, and one special character."
+    },
+    "recordarme": "Remember me",
+    "olvidaste": "Forgot your password?",
+    "boton": "LOGIN",
+    "continuar": "OR CONTINUE WITH",
+    "no_cuenta": "Don't have an account?",
+    "registrate": "REGISTER HERE",
+    "seguro": {
+        "titulo": "SECURE CONNECTION",
+        "descripcion": "All your data is protected with end-to-end encryption."
+    }
+  },
+  "registro": {
+    "pasos": {
+        "datos": "DATA",
+        "verificar": "VERIFY",
+        "listo": "READY"
+    },
+    "nuevo_usuario": "NEW USER",
+    "titulo": "CREATE ACCOUNT",
+    "subtitulo": "Join the most direct crypto community.",
+    "campos": {
+        "nombre": { "label": "NAME", "placeholder": "Your name" },
+        "apellido": { "label": "LAST NAME", "placeholder": "Your last name" },
+        "email": { "label": "EMAIL", "placeholder": "your@email.com" },
+        "usuario": { "label": "USERNAME", "placeholder": "username" },
+        "contrasena": { 
+            "label": "PASSWORD", 
+            "placeholder": "Minimum 8 characters",
+            "seguridad": "Security: MEDIUM"
+        },
+        "confirmar": { "label": "CONFIRM PASSWORD", "placeholder": "Repeat your password" }
+    },
+    "terminos": {
+        "texto": "I accept the",
+        "link_terminos": "Terms of Service",
+        "y": "and the",
+        "link_privacidad": "Privacy Policy",
+        "final": ". I understand that CryptoVue is an informational tool and not financial."
+    },
+    "novedades": "I want to receive market updates (optional)",
+    "boton": "CREATE MY ACCOUNT",
+    "ya_cuenta": "Already have an account?",
+    "inicia_sesion": "LOGIN",
+    "errores": {
+        "nombre": {
+            "obligatorio": "Name is required",
+            "minimo": "Minimum 4 letters",
+            "formato": "Only letters allowed"
+        },
+        "apellido": {
+            "obligatorio": "Last name is required",
+            "formato": "Only letters allowed"
+        },
+        "email": {
+            "obligatorio": "Email is required",
+            "invalido": "Invalid email (e.g. user@domain.com)"
+        },
+        "usuario": {
+            "obligatorio": "Username is required",
+            "minimo": "Minimum 4 characters",
+            "formato": "Only letters, numbers, - and _"
+        },
+        "contrasena": {
+            "obligatorio": "Password is required",
+            "minimo": "Minimum 8 characters",
+            "minuscula": "Missing a lowercase letter",
+            "mayuscula": "Missing an uppercase letter",
+            "especial": "Missing a special character",
+            "confirmar_obligatorio": "You must confirm the password",
+            "no_coinciden": "Passwords do not match"
+        },
+        "terminos": "You must accept the terms"
+    }
   }
 }

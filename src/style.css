@@ -30,6 +30,15 @@ body {
     box-shadow: 8px 8px 0 #42b883;
 }
 
+.shadow-green-buttons{
+    box-shadow: 4px 4px 0 #42b883;
+}
+
+.shadow-green-buttons:hover {
+    box-shadow: 3px 3px 0 #42b883;
+    transform: translate(1px, 1px);
+}
+
 .shadow-green:hover {
     box-shadow: 4px 4px 0 #42b883;
     transform: translate(4px, 4px);

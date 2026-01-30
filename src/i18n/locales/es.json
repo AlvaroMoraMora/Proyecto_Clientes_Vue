@@ -2,9 +2,9 @@
   "header": {
     "titulo": "CryptoVue",
     "nav": {
-      "resumen": "Resumen",
-      "monedas": "Monedas",
-      "suscribirse": "Suscribirse"
+      "inicio": "INICIO",
+      "mercado": "MERCADO",
+      "entrar": "ENTRAR"
     },
     "idioma": "Español"
   },
@@ -12,21 +12,46 @@
     "titulo": "Gráfica de Rendimiento",
     "botones": {
       "anterior": "Anterior criptomoneda",
-      "siguiente": "Siguiente criptomoneda"
+      "siguiente": "Siguiente criptomoneda",
+      "tipo_barras": "BARRAS",
+      "tipo_linea": "LINEAL"
+    },
+    "etiquetas": {
+      "asset": "ACTIVO",
+      "price": "PRECIO"
     },
     "tipos": {
       "linea": "Gráfica de línea",
       "barras": "Gráfica de barras"
     }
   },
+  "mercado": {
+    "explorar": "EXPLORAR",
+    "titulo": "MERCADO CRYPTO",
+    "buscador": {
+      "placeholder": "Buscar moneda...",
+      "boton": "BUSCAR"
+    },
+    "filtros": {
+      "todos": "TODOS",
+      "alza_24h": "ALZA 24H",
+      "alza_7d": "ALZA 7D",
+      "menos_1": "< 1$",
+      "mas_1": ">= 1$",
+      "precio_asc": "PRECIO ↑",
+      "precio_desc": "PRECIO ↓"
+    }
+  },
   "tabla": {
     "columnas": {
-      "nombre": "Nombre",
-      "simbolo": "Símbolo",
-      "precio": "Precio",
-      "cambio24h": "Cambio 24h",
-      "volumen": "Volumen",
-      "capitalizacion": "Capitalización"
+      "id": "#",
+      "moneda": "MONEDA",
+      "precio": "PRECIO",
+      "cambio_24h": "24H",
+      "cambio_7d": "7D",
+      "market_cap": "MARKET CAP",
+      "volumen_24h": "VOLUMEN 24H",
+      "grafica_7d": "GRÁFICA 7D"
     },
     "acciones": {
       "ver_detalle": "Ver detalle",
@@ -38,5 +63,151 @@
     "cargando": "Cargando...",
     "error": "Ha ocurrido un error",
     "sin_datos": "No hay datos disponibles"
+  },
+  "footer": {
+    "descripcion": "La plataforma brutalmente honesta para seguir el mercado crypto.",
+    "navegacion": {
+      "titulo": "Navegación",
+      "inicio": "Inicio",
+      "mercado": "Mercado",
+      "about": "About",
+      "login": "Iniciar Sesión"
+    },
+    "legal": {
+      "titulo": "Legal",
+      "terminos": "Términos de Uso",
+      "privacidad": "Privacidad",
+      "cookies": "Cookies",
+      "licencias": "Licencias"
+    },
+    "siguenos": "Síguenos",
+    "copyright": "2026 CRYPTOVUE"
+  },
+  "hero": {
+    "titulo_1": "Crypto",
+    "titulo_2": "Sin filtros",
+    "subtitulo_1": "Datos puros. Sin adornos.",
+    "subtitulo_2": "Decisiones inteligentes.",
+    "boton_mercado": "Ver Mercado",
+    "boton_cuenta": "Crear Cuenta",
+    "nuevo": "¡NUEVO!",
+    "market_cap": "Capitalización",
+    "cambio_24h": "Cambio 24h",
+    "monedas": "Monedas",
+    "volumen": "Volumen"
+  },
+  "features": {
+    "titulo": "¿POR QUÉ CRYPTOVUE?",
+    "graficas": {
+      "titulo": "GRÁFICAS",
+      "descripcion": "Visualizaciones claras sin distracciones innecesarias."
+    },
+    "tiempo_real": {
+      "titulo": "TIEMPO REAL",
+      "descripcion": "Datos actualizados cada segundo."
+    },
+    "alertas": {
+      "titulo": "ALERTAS",
+      "descripcion": "Notificaciones cuando tus cryptos se muevan."
+    },
+    "multi_idioma": {
+      "titulo": "MULTI-IDIOMA",
+      "descripcion": "Español e inglés disponibles."
+    }
+  },
+  "newsletter": {
+    "tag": "NEWSLETTER",
+    "titulo": "MANTENTE INFORMADO",
+    "descripcion": "Recibe las últimas noticias del mercado directamente en tu correo. Sin spam, lo prometemos.",
+    "placeholder": "tu@email.com",
+    "boton": "SUSCRIBIRSE"
+  },
+  "login": {
+    "acceso": "ACCESO",
+    "titulo": "INICIAR SESIÓN",
+    "subtitulo": "Accede a tu cuenta para gestionar tu portfolio.",
+    "email": {
+        "label": "EMAIL",
+        "placeholder": "tu@email.com",
+        "titulo_validacion": "Por favor, introduce un correo válido (ej. usuario@dominio.com)"
+    },
+    "contrasena": {
+        "label": "CONTRASEÑA",
+        "placeholder": "********",
+        "titulo_validacion": "Debe tener al menos 8 caracteres, una mayúscula, una minúscula y un carácter especial."
+    },
+    "recordarme": "Recordarme",
+    "olvidaste": "¿Olvidaste tu contraseña?",
+    "boton": "ENTRAR",
+    "continuar": "O CONTINÚA CON",
+    "no_cuenta": "¿No tienes cuenta?",
+    "registrate": "REGÍSTRATE AQUÍ",
+    "seguro": {
+        "titulo": "CONEXIÓN SEGURA",
+        "descripcion": "Todos tus datos están protegidos con encriptación de extremo a extremo."
+    }
+  },
+  "registro": {
+    "pasos": {
+        "datos": "DATOS",
+        "verificar": "VERIFICAR",
+        "listo": "LISTO"
+    },
+    "nuevo_usuario": "NUEVO USUARIO",
+    "titulo": "CREAR CUENTA",
+    "subtitulo": "Únete a la comunidad crypto más directa.",
+    "campos": {
+        "nombre": { "label": "NOMBRE", "placeholder": "Tu nombre" },
+        "apellido": { "label": "APELLIDO", "placeholder": "Tu apellido" },
+        "email": { "label": "EMAIL", "placeholder": "tu@email.com" },
+        "usuario": { "label": "NOMBRE DE USUARIO", "placeholder": "username" },
+        "contrasena": { 
+            "label": "CONTRASEÑA", 
+            "placeholder": "Mínimo 8 caracteres",
+            "seguridad": "Seguridad: MEDIA"
+        },
+        "confirmar": { "label": "CONFIRMAR CONTRASEÑA", "placeholder": "Repite tu contraseña" }
+    },
+    "terminos": {
+        "texto": "Acepto los",
+        "link_terminos": "Términos de Servicio",
+        "y": "y la",
+        "link_privacidad": "Política de Privacidad",
+        "final": ". Entiendo que CryptoVue es una herramienta informativa y no financiera."
+    },
+    "novedades": "Quiero recibir actualizaciones del mercado (opcional)",
+    "boton": "CREAR MI CUENTA",
+    "ya_cuenta": "¿Ya tienes cuenta?",
+    "inicia_sesion": "INICIA SESIÓN",
+    "errores": {
+        "nombre": {
+            "obligatorio": "El nombre es obligatorio",
+            "minimo": "Mínimo 4 letras",
+            "formato": "Solo se permiten letras"
+        },
+        "apellido": {
+            "obligatorio": "El apellido es obligatorio",
+            "formato": "Solo se permiten letras"
+        },
+        "email": {
+            "obligatorio": "El email es obligatorio",
+            "invalido": "Email inválido (ej. usuario@dominio.com)"
+        },
+        "usuario": {
+            "obligatorio": "El usuario es obligatorio",
+            "minimo": "Mínimo 4 caracteres",
+            "formato": "Solo letras, números, - y _"
+        },
+        "contrasena": {
+            "obligatorio": "La contraseña es obligatoria",
+            "minimo": "Mínimo 8 caracteres",
+            "minuscula": "Falta una minúscula",
+            "mayuscula": "Falta una mayúscula",
+            "especial": "Falta un carácter especial",
+            "confirmar_obligatorio": "Debes confirmar la contraseña",
+            "no_coinciden": "Las contraseñas no coinciden"
+        },
+        "terminos": "Debes aceptar los términos"
+    }
   }
 }
