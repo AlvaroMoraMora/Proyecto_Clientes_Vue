@@ -35,9 +35,6 @@ const cambiarIdioma = (idioma: string) => {
             <router-link to="/Mercado" class="hover:text-white border-b-2 hover:border-[#42b883] transition-colors inline-block pb-0.5">{{ t('footer.navegacion.mercado') }}</router-link>
           </li>
           <li>
-            <router-link to="/About" class="hover:text-white border-b-2 hover:border-[#42b883] transition-colors inline-block pb-0.5">{{ t('footer.navegacion.about') }}</router-link>
-          </li>
-          <li>
             <router-link to="/Login" class="hover:text-white border-b-2 hover:border-[#42b883] transition-colors inline-block pb-0.5">{{ t('footer.navegacion.login') }}</router-link>
           </li>
         </ul>
